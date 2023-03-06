@@ -1,0 +1,13 @@
+*{
+    font-family: 'Bebas Neue', cursive;
+}
+nav{
+  background: rgba(0, 0, 0, 0.5);
+}
+#contactUsBtn{
+    /* background-color: #E3F2FD; */
+    background-color: #E3F2FD;
+}   
+#otherNav-desktop-view,#shortDesc{
+    font-family: 'Roboto', sans-serif;
+}
