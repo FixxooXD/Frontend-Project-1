@@ -11,3 +11,41 @@ nav{
 #otherNav-desktop-view,#shortDesc{
     font-family: 'Roboto', sans-serif;
 }
+
+#svg{
+    z-index: 20;
+}
+ 
+#we{
+    z-index: 40;
+}
+
+#circle{
+        animation: heartbeat 20s ease-in-out infinite;
+      }
+      
+      @keyframes heartbeat {
+        0% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.1);
+        }
+        100% {
+          transform: scale(1);
+        }
+}
+
+#triangle{
+        animation: rotate 20s linear infinite;
+      } 
+      
+      @keyframes rotate {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+
