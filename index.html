@@ -17,15 +17,15 @@
     <title>Ignite</title>
   </head>
   <body>
-    <div id="parent" class="">
+    <div id="parent" class="overflow-x-hidden">
       <div class="img-div absolute">
         <img
-          class="h-screen w-screen object-cover object-center"
+          class="h-screen w-screen object-cover object-center "
           src="./assets/indexBackground.jpg"
           alt="" />
       </div>
       <nav class="relative h-screen w-screen flex flex-col">
-        <div class="First-container flex justify-between p-4 pt-6">
+        <div class="First-container flex justify-between p-12 pt-6">
           <div id="logo" class="text-white">
             <span class="text-6xl">Logo</span>
           </div>
@@ -92,16 +92,24 @@
             Contact us
           </button>
         </div>
-        <div class="left-14 relative w-32">
+        <div class="-left-10 lg:left-14 relative w-28">
           <img id="triangle" src="assets/shapes/triangle.svg" alt="" />
         </div>
         <div class="mt-40 w-64 relative">
           <img
-            class="absolute hidden xl:block z-10 -mt-56 -ml-20"
+            class="absolute hidden lg:block z-10 -mt-56 -ml-20"
             src="assets/shapes/dot_grid.svg"
             alt="" />
         </div>
       </nav>
+      <div class="absolute inset-y-20 -right-12 sm:right-12">
+      <img id="pentagon" src="assets/shapes/pentagon.svg" alt="">
+    </div>
+     
+    <!-- Other Half -->
+    <div>
+      
+    </div>
     </div>
   </body>
 </html>
