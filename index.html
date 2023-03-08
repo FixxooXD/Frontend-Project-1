@@ -19,8 +19,9 @@
   <body>
     <div id="parent" class="overflow-hidden">
       <div class="img-div absolute">
+        <!-- sm:h-screen -->
         <img
-          class="h-screen w-screen object-cover object-center "
+          class="h-96 w-screen object-cover object-center "
           src="./assets/indexBackground.jpg"
           alt="" />
       </div>
@@ -72,7 +73,7 @@
             </div>
           </h1>
           <h1
-            class="text-white bg-purple-600 w-fit lg:text-8xl md:text-6xl text-3xl sm:p-2 p-1">
+            class="text-white bg-purple-600 w-fit lg:text-8xl md:text-6xl text-5xl sm:p-2 p-1">
             SUCESSFUL Digital PRODUCTS
           </h1>
           <div class="absolute">
@@ -102,9 +103,11 @@
             alt="" />
         </div>
       </nav>
-      <div class="relative left-10">
-      <img class="absolute  inset-x-60 -inset-y-10" id="pentagon" src="assets/shapes/pentagon.svg" alt=""> 
+      <div class="relative block sm:absolute  sm:hidden left-10">
+      <img class="absolute sm:relative sm: inset-x-60 -inset-y-10" id="pentagon" src="assets/shapes/pentagon.svg" alt=""> 
     </div>
+    <img class="hidden sm:block  absolute inset-y-20 right-5" id="pentagon" src="assets/shapes/pentagon.svg" alt=""> 
+
      
     <!-- Other Half -->
     <div>
