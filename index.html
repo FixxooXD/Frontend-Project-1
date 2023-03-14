@@ -21,14 +21,14 @@
       <div class="img-div absolute">
         <!-- sm:h-screen -->
         <img
-          class="h-96 w-screen object-cover object-center "
+          class="sm:h-screen w-screen object-cover object-center"
           src="./assets/indexBackground.jpg"
           alt="" />
       </div>
       <nav class="relative h-screen w-screen flex flex-col">
         <div class="First-container flex justify-between p-12 pt-6">
           <div id="logo" class="text-white">
-            <span class="text-6xl">Logo</span>
+            <span class="text-7xl sm:text-8xl">Logo</span>
           </div>
           <div id="otherNav-desktop-view" class="text-white block lg:hidden">
             <button>Burgir Btn</button>
@@ -40,7 +40,7 @@
           </div>
           <div
             id="otherNav-desktop-view"
-            class="h-10 text-white hidden lg:flex w-2/6 flex justify-between">
+            class="h-10 text-white hidden lg:flex w-2/6 flex justify-between font-bold">
             <button>Our Work</button>
             <button>Services</button>
             <button>Playbook</button>
@@ -54,7 +54,7 @@
         </div>
         <div
           class="relative second-container lg:pl-52 md:pl-12 md:mt-6 pl-6 pt-4 lg:pt-16">
-          <h1 class="text-white lg:text-9xl md:text-8xl text-4xl">
+          <h1 class="text-white lg:text-9xl md:text-8xl text-4xl sm:mb-6">
             <span id="abs" class="sm:absolute sm:top-16">WE CREATE</span>
             <div id="svg" class="hidden sm:block">
               <svg
@@ -73,7 +73,7 @@
             </div>
           </h1>
           <h1
-            class="text-white bg-purple-600 w-fit lg:text-8xl md:text-6xl text-5xl sm:p-2 p-1">
+            class="inline text-white bg-purple-600 w-fit lg:text-9xl decoration-clone leading-[70px] md:text-6xl text-5xl md-px-4">
             SUCESSFUL Digital PRODUCTS
           </h1>
           <div class="absolute">
@@ -81,15 +81,19 @@
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M0.63657 92.2408L53.3895 0.952146L106.142 92.2408L0.63657 92.2408Z" fill="#D7E4FF"></path>
                 </svg> -->
           </div>
-          <h3 id="shortDesc" class="text-white mt-6 text-2xl tracking-tighter">
+          <h3
+            id="shortDesc"
+            class="text-white mt-6 sm:text-3xl text-sm tracking-tighter">
             Our Team helps founders and companies ideate, build, and
           </h3>
-          <h3 id="shortDesc" class="text-white text-2xl tracking-tighter">
+          <h3
+            id="shortDesc"
+            class="text-white sm:text-3xl text-sm md-text-2xl tracking-tighter">
             launch web & mobile applications people love to use
           </h3>
           <button
             id="shortDesc"
-            class="bg-purple-600 text-white text-sm w-32 p-2 mt-4 rounded-lg">
+            class="bg-purple-600 text-white text-sm sm:text-xl w-32 p-2 px-3 mt-4 rounded-lg">
             Contact us
           </button>
         </div>
@@ -103,16 +107,29 @@
             alt="" />
         </div>
       </nav>
-      <div class="relative block sm:absolute  sm:hidden left-10">
-      <img class="absolute sm:relative sm: inset-x-60 -inset-y-10" id="pentagon" src="assets/shapes/pentagon.svg" alt=""> 
-    </div>
-    <img class="hidden sm:block  absolute inset-y-20 right-5" id="pentagon" src="assets/shapes/pentagon.svg" alt=""> 
+      <div class="relative block sm:absolute sm:hidden left-10">
+        <img
+          class="absolute sm:relative sm: inset-x-60 -inset-y-10"
+          id="pentagon"
+          src="assets/shapes/pentagon.svg"
+          alt="" />
+      </div>
+      <img
+        class="hidden sm:block absolute inset-y-20 right-5"
+        id="pentagon"
+        src="assets/shapes/pentagon.svg"
+        alt="" />
 
-     
-    <!-- Other Half -->
-    <div>
-      
-    </div>
+      <!-- Other Half -->
+      <div class="bg-[#222]">
+        <div class="flex">
+          <h1 class="pl-16 text-white">
+            <span>Leading companies that worked with us</span>
+          </h1>
+          <div
+            class="border-t flex-1 border-white absolute bg-secondary-1000 text-white w-full"></div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
