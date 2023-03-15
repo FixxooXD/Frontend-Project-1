@@ -17,16 +17,17 @@
     <title>Ignite</title>
   </head>
   <body>
-    <div id="parent" class="overflow-hidden">
-      <div class="img-div absolute">
+    <div id="parent" class="overflow-hidden bg-[#222] h-[90vh] sm:h-full">
+      <div class="img-div absolute h-[90vh] sm:h-full">
         <!-- sm:h-screen -->
         <img
-          class="sm:h-screen w-screen object-cover object-center"
+          class="h-full
+           w-screen object-cover object-center "
           src="./assets/indexBackground.jpg"
           alt="" />
       </div>
       <nav class="relative h-screen w-screen flex flex-col">
-        <div class="First-container flex justify-between p-12 pt-6">
+        <div class="First-container flex justify-between p-6 pt-6">
           <div id="logo" class="text-white">
             <span class="text-7xl sm:text-8xl">Logo</span>
           </div>
@@ -81,14 +82,10 @@
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M0.63657 92.2408L53.3895 0.952146L106.142 92.2408L0.63657 92.2408Z" fill="#D7E4FF"></path>
                 </svg> -->
           </div>
-          <h3
-            id="shortDesc"
-            class="text-white mt-6 sm:text-3xl text-sm tracking-tighter">
+          <h3 id="shortDesc" class="text-white mt-6 sm:text-3xl text-sm tracking-tighter">
             Our Team helps founders and companies ideate, build, and
           </h3>
-          <h3
-            id="shortDesc"
-            class="text-white sm:text-3xl text-sm md-text-2xl tracking-tighter">
+          <h3 id="shortDesc" class="text-white sm:text-3xl text-sm md-text-2xl tracking-tighter">
             launch web & mobile applications people love to use
           </h3>
           <button
@@ -100,36 +97,30 @@
         <div class="-left-10 lg:left-14 relative w-28">
           <img id="triangle" src="assets/shapes/triangle.svg" alt="" />
         </div>
-        <div class="mt-40 w-64 relative">
+        <div class="mt-40 w-64 relative inset-x-60 sm:inset-x-0 -inset-y-10 sm:inset-y-0 z-10">
           <img
             class="absolute hidden lg:block z-10 -mt-56 -ml-20"
             src="assets/shapes/dot_grid.svg"
             alt="" />
+            <img
+            class="sm:hidden lg:block z-10 -mt-56 -ml-20"
+            src="assets/shapes/dot_grid.svg"
+            alt="" />
         </div>
       </nav>
-      <div class="relative block sm:absolute sm:hidden left-10">
-        <img
-          class="absolute sm:relative sm: inset-x-60 -inset-y-10"
-          id="pentagon"
-          src="assets/shapes/pentagon.svg"
-          alt="" />
-      </div>
-      <img
-        class="hidden sm:block absolute inset-y-20 right-5"
-        id="pentagon"
-        src="assets/shapes/pentagon.svg"
-        alt="" />
-
-      <!-- Other Half -->
-      <div class="bg-[#222]">
-        <div class="flex">
-          <h1 class="pl-16 text-white">
-            <span>Leading companies that worked with us</span>
-          </h1>
-          <div
-            class="border-t flex-1 border-white absolute bg-secondary-1000 text-white w-full"></div>
-        </div>
-      </div>
+      <div class="relative block sm:absolute  sm:hidden left-10">
+      <img class="absolute sm:relative inset-x-60 -inset-y-10" id="pentagon" src="assets/shapes/pentagon.svg" alt=""> 
+    </div>
+    <img class="hidden sm:block  absolute inset-y-20 right-5" id="pentagon" src="assets/shapes/pentagon.svg" alt=""> 
+        
+  </div>
+    <!-- Other Half -->
+    <div class="bg-[#222]">
+      <div class="flex">
+      <h1 class="sm:pl-16 pl-2 text-white flex normal-case"><span id="companies" class="text-sm sm:text-lg">Leading companies that worked with us</span></h1>
+      <div class="hidden lg:block border-t flex-1 border-white bg-secondary-1000 text-white w-full mt-[15px] ml-1"></div>
+    </div>
+  </div>
     </div>
   </body>
 </html>
