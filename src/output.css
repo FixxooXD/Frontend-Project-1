@@ -1351,6 +1351,10 @@ video {
     position: absolute;
   }
 
+  .lg\:relative {
+    position: relative;
+  }
+
   .lg\:left-14 {
     left: 3.5rem;
   }
@@ -1471,6 +1475,15 @@ video {
     top: 10rem;
   }
 
+  .lg\:left-\[78rem\] {
+    left: 78rem;
+  }
+
+  .lg\:my-0 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
   .lg\:block {
     display: block;
   }
@@ -1489,6 +1502,10 @@ video {
 
   .lg\:w-\[42rem\] {
     width: 42rem;
+  }
+
+  .lg\:w-36 {
+    width: 9rem;
   }
 
   .lg\:border-transparent {
