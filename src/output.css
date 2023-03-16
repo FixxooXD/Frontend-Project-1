@@ -568,12 +568,43 @@ video {
   top: -1.5rem;
 }
 
+.left-0 {
+  left: 0px;
+}
+
+.left-auto {
+  left: auto;
+}
+
+.right-auto {
+  right: auto;
+}
+
 .z-10 {
   z-index: 10;
 }
 
 .z-40 {
   z-index: 40;
+}
+
+.m-2 {
+  margin: 0.5rem;
+}
+
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.my-3 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .-ml-20 {
@@ -602,6 +633,18 @@ video {
 
 .mt-\[15px\] {
   margin-top: 15px;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.mt-16 {
+  margin-top: 4rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
 }
 
 .block {
@@ -705,6 +748,10 @@ video {
   justify-content: space-between;
 }
 
+.justify-around {
+  justify-content: space-around;
+}
+
 .overflow-hidden {
   overflow: hidden;
 }
@@ -736,6 +783,67 @@ video {
   background-color: rgb(147 51 234 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#\] {
+  background-color: #;
+}
+
+.bg-\[\#2\] {
+  background-color: #2;
+}
+
+.bg-\[\#263\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(34 102 51 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#2632\] {
+  background-color: #2632;
+}
+
+.bg-\[\#263238\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(38 50 56 / var(--tw-bg-opacity));
+}
+
+.bg-\[\] {
+  background-color: ;
+}
+
+.bg-\[\#37\] {
+  background-color: #37;
+}
+
+.bg-\[\#3747\] {
+  background-color: #3747;
+}
+
+.bg-\[\#37474f\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(55 71 79 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#37474\] {
+  background-color: #37474;
+}
+
+.bg-\[\#37474F\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(55 71 79 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#37443\] {
+  background-color: #37443;
+}
+
+.bg-\[\#3743\] {
+  background-color: #3743;
+}
+
+.bg-\[\#374351\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(55 67 81 / var(--tw-bg-opacity));
+}
+
 .decoration-clone {
   -webkit-box-decoration-break: clone;
           box-decoration-break: clone;
@@ -757,6 +865,14 @@ video {
 
 .p-6 {
   padding: 1.5rem;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.p-5 {
+  padding: 1.25rem;
 }
 
 .px-24 {
@@ -841,6 +957,10 @@ video {
 
 .pr-4 {
   padding-right: 1rem;
+}
+
+.pt-16 {
+  padding-top: 4rem;
 }
 
 .text-4xl {

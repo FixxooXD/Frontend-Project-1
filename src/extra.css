@@ -8,7 +8,7 @@ nav{
     /* background-color: #E3F2FD; */
     background-color: #E3F2FD;
 }   
-#otherNav-desktop-view,#shortDesc, #companies{
+#otherNav-desktop-view,#shortDesc, #companies,p{
     font-family: 'Roboto', sans-serif;
 }
 
@@ -67,4 +67,5 @@ nav{
         -webkit-transform: scale( 0.8 );-moz-transform: scale( 0.8 );-o-transform: scale( 0.8 );-ms-transform: scale( 0.8 );transform: scale( 0 );
         }
       }
+      
 
