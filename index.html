@@ -17,8 +17,8 @@
     <title>Ignite</title>
   </head>
   <body>
-    <div id="parent" class="overflow-hidden bg-[#222] h-[85vh] md:h-full">
-      <div class="img-div absolute h-[85vh] md:h-full">
+    <div id="parent" class="overflow-hidden bg-[#222] h-[85vh] md:h-[95vh]">
+      <div class="img-div absolute h-[85vh] md:h-[95vh]">
         <!-- sm:h-screen -->
         <img
           class="h-full
@@ -27,9 +27,9 @@
           alt="" />
       </div>
       <nav class="relative h-screen w-screen flex flex-col">
-        <div class="First-container flex justify-between p-6 pt-6">
+        <div class="First-container flex justify-between p-10 sm:p-[4rem] xl:px-[14rem] pt-6">
           <div id="logo" class="text-white">
-            <span class="text-7xl sm:text-8xl">Logo</span>
+            <span class="text-7xl sm:text-7xl">Logo</span>
           </div>
           <div id="otherNav-desktop-view" class="text-white block lg:hidden">
             <button>Burgir Btn</button>
@@ -41,42 +41,32 @@
           </div>
           <div
             id="otherNav-desktop-view"
-            class="h-10 text-white hidden lg:flex w-2/6 flex justify-between font-bold">
-            <button>Our Work</button>
-            <button>Services</button>
-            <button>Playbook</button>
-            <button>Blog</button>
+            class="h-10 text-white hidden lg:flex w-5/12 lg:w-1/2 flex justify-between font-bold ">
+            <button class="xl:text-xl">Our Work</button>
+            <button class="xl:text-xl">Services</button>
+            <button class="xl:text-xl" >Playbook</button>
+            <button class="xl:text-xl">Blog</button>
             <button
               id="contactUsBtn"
-              class="bg-slat-300 text-black px-4 rounded-lg font-medium">
+              class="bg-slat-300 text-black px-4 py-2 h-14 w-40 rounded-lg items-center font-medium xl:text-xl">
               Contact Us
             </button>
           </div>
         </div>
-        <div
-          class="relative second-container lg:pl-52 md:pl-12 md:mt-6 pl-6 pt-4 lg:pt-16">
-          <h1 class="text-white lg:text-9xl md:text-8xl text-4xl sm:mb-6">
-            <span id="abs" class="sm:absolute sm:top-16">WE CREATE</span>
-            <div id="svg" class="hidden sm:block">
-              <svg
-                class="scale -top-12 -left-14 z-40"
-                xmlns="http://www.w3.org/2000/svg"
-                width="118"
-                height="117"
-                viewBox="0 0 118 117"
-                fill="none">
-                <circle
-                  cx="59.0524"
-                  cy="58.3649"
-                  r="58.3649"
-                  fill="#773DBD"></circle>
-              </svg>
-            </div>
-          </h1>
-          <h1
-            class="inline text-white bg-purple-600 w-fit lg:text-9xl decoration-clone leading-[70px] md:text-6xl text-5xl md-px-4">
+
+
+
+        <div class="relative lg:pl-[15rem] md:pl-12  pl-6 pt-2 lg:pt-16">
+          <div class="relative z-40 sm:top-16 xl:text-[10rem] md:text-8xl text-4xl text-white">WE CREATE</div>
+          <div class="">
+          <img class="hidden md:block sm:absolute md:top-[2rem] md:left-[1rem] lg:top-[6rem] lg:left-[12rem]" src="assets/shapes/circle.svg" alt="">
+        </div>
+        <div class="sm:mt-16">
+        <h1
+            class="inline  text-white bg-purple-600 w-fit xl:text-9xl leading-[70px]  md:text-6xl text-5xl ">
             SUCESSFUL Digital PRODUCTS
           </h1>
+        </div>
           <div class="absolute">
             <!-- <svg class="spin w-full md:w-auto h-full md:h-full" width="107" height="93" viewBox="0 0 107 93" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M0.63657 92.2408L53.3895 0.952146L106.142 92.2408L0.63657 92.2408Z" fill="#D7E4FF"></path>
@@ -94,6 +84,19 @@
             Contact us
           </button>
         </div>
+        <!-- <div id="middle" class="border ">
+          <div class="relative border sm:top-16 lg:text-[10rem] md:text-8xl text-4xl text-white z-40">
+            WE CREATE
+          </div>
+          <div class="sm:absolute top-5">
+            <img class="hidden z-10  sm:block" src="assets/shapes/circle.svg" alt="">
+          </div> -->
+        <!-- </div> -->
+
+
+
+
+
         <div class="-left-10 lg:left-14 relative w-28">
           <img id="triangle" src="assets/shapes/triangle.svg" alt="" />
         </div>
@@ -114,6 +117,8 @@
     <img class="hidden sm:block  absolute inset-y-20 right-5" id="pentagon" src="assets/shapes/pentagon.svg" alt="">
 
   </div>
+
+
     <!-- Other Half -->
     <div class="bg-[#263238]">
       <div class="flex">
@@ -136,7 +141,7 @@
     </div>
 
     <div id="services">
-       <div class="border-t lg:border-transparent pl-6 pr-4 lg:px-64">
+       <div class="border-t lg:border-transparent pl-6 pr-4 lg:px-[10rem]">
        <div class="relative mt-16 sm:pt-24 text-white text-8xl text-opacity-40 sm:top-0">SERVICES</div>
        <div id="shortDesc" class="relative w-full lg:w-[42rem] text-sm sm:text-xl flex leading-6 pl-6 sm:pl-6 sm:pr-6 pl-2 -top-8 text-slate-200">We're the partner you need! Our team will help you build top-notch digital products that
         strengthen your relationship with your users and make your business thrive. Let's take your
@@ -177,26 +182,31 @@
        </div>
       </div>
       </div>
-       <button id="" class="lg:relative lg:left-[78rem] lg:-top-24  bg-purple-600 text-white w-full lg:w-36 h-12 p-2 rounded-lg my-4 lg:my-0"><span id="shortDesc" class="hidden sm:block font-medium">Contact us</span><span id="shortDesc" class="sm:hidden text-lg font-medium">Lets Work Together!</span></button>
+       <button id="" class="hidden lg:relative lg:left-[78rem] lg:-top-24  bg-purple-600 text-white w-full lg:w-36 h-12 p-2 rounded-lg my-4 lg:my-0"><span id="shortDesc" class="hidden sm:block font-medium">Contact us</span><span id="shortDesc" class="sm:hidden text-lg font-medium">Lets Work Together!</span></button>
        </div>
 
-       <div id="OurWork" class="border-t border-b px-4 mt-4">
-           <div class="mt-4 sm:pt-24 text-white text-6xl sm:text-8xl text-opacity-40">OUR WORK</div>
 
+       <!-- OUR WORK
 
-           <div id="bestBuy" class="flex flex-col mt-6 px-2 pt-8">
-           <div class="text-sm text-opacity-60 text-white">CASE STUDY</div>
-           <div class="text-xl text-white">BEST BUY</div>
-           <div class="relative overflow-hidden">
-            <img id="laptop" class="relative z-40" src="assets/ourWorkIcons/laptop.svg" alt="">
-            <img id="circle" class="absolute w-20 -top-0 right-0" src="assets/shapes/circle.svg" alt="">
+       <div id="OurWork" class=" border-t sm:border-transparent border-b  px-4 mt-4">
+           <div class="md:absolute sm:right-[10rem] mt-4 sm:pt-24 text-white text-6xl sm:text-8xl text-opacity-40">OUR WORK</div>
+
+           <div id="bestBuy" class="border flex flex-col mt-6 px-2 sm:px-[2rem] pt-8">
+          <div class="mt-[5rem] sm:mt-[8rem]  sm:ml-28">
+           <div class="text-sm sm:text-xl text-opacity-60 text-white sm:w-[14rem] ">CASE STUDY</div>
+           <div class="text-xl text-white sm:text-5xl sm:w-[14rem] ">BEST BUY</div>
            </div>
-           <div class="px-2">
-           <div class="mt-5 text-white text-lg" >Retailer</div>
+           <div class="relative overflow-hidden sm:overflow-visible flex md:flex-row-reverse md:pr-[7rem]">
+            <img id="laptop" class="relative z-40 sm:w-[52rem] sm:-top-[7rem]" src="assets/ourWorkIcons/laptop.svg" alt="">
+            <img id="circle" class="absolute w-20 sm:w-28 top-0 sm:top-[15rem] sm:right-[8rem] right-0 " src="assets/shapes/circle.svg" alt="">
+           </div>
+
+           <div class="px-2 sm:px-0 sm:w-[40rem] sm:absolute sm:mt-[14rem] sm:ml-28">
+           <div class="mt-5 text-white text-lg sm:text-3xl sm:w-[14rem]" >Retailer</div>
            <div class="">
-           <p class="text-white text-opacity-85 mt-1 text-sm">We built BestBuy's influencer network, a platform where influencers from different social media channels can collaborate with BestBuy to promote their electronic products.
+           <p class="text-white text-opacity-85 mt-1 text-sm sm:text-xl sm:mt-6">We built BestBuy's influencer network, a platform where influencers from different social media channels can collaborate with BestBuy to promote their electronic products.
            </p>
-           <button id="shortDesc" class="mt-6 text-xs text-bold text-white tracking-tighter" >Read the success story</button>
+           <button id="shortDesc" class="mt-6 sm:mt-12 text-xs sm:text-lg text-bold text-white tracking-tighter" >Read the success story</button>
           </div>
         </div>
           </div>
@@ -212,8 +222,7 @@
       <img id="triangle" class="absolute w-[5rem] left-0 top-0" src="assets/shapes/triangle.svg" alt="">
     </div>
 
-    <div class="
-    px-2">
+    <div class="px-2">
     <div class="text-white text-lg mt-5">Fintech</div>
     <p class="text-sm text-white text-opacity-85 mt-1">We integrated Dlocal, a unicorn company that offers a payment platform for emerging markets, with Shopify, the largest e-commerce cloud-based tool.</p>
     </div>
@@ -237,7 +246,7 @@
       <button id="shortDesc" class="mt-6 text-xs text-bold text-white tracking-tighter" >Read the success story</button>
      </div>
     </div>
-    </div>
+    </div> -->
   </div>
     </div>
   </body>
