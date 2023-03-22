@@ -30,10 +30,10 @@
       </div>
       <nav class="relative h-screen w-screen flex flex-col">
         <div
-          class="First-container flex justify-between p-10 sm:p-[4rem] xl:px-[10rem] pt-6"
+          class="First-container flex justify-between p-10 "
         >
           <div id="logo" class="text-white">
-            <span class="text-7xl sm:text-9xl">Logo</span>
+            <span class="text-7xl">Logo</span>
           </div>
           <div id="otherNav-desktop-view" class="text-white block lg:hidden">
             <button>Burgir Btn</button>
@@ -45,37 +45,38 @@
           </div>
           <div
             id="otherNav-desktop-view"
-            class="h-10 text-white hidden lg:flex w-5/12 lg:w-1/2 flex justify-between font-bold"
+            class="h-10 text-white hidden lg:flex w-5/12 flex justify-between font-bold"
           >
-            <button class="xl:text-xl">Our Work</button>
-            <button class="xl:text-xl">Services</button>
-            <button class="xl:text-xl">Playbook</button>
-            <button class="xl:text-xl">Blog</button>
+            <button class="xl:text-sm">Our Work</button>
+            <button class="xl:text-sm">Services</button>
+            <button class="xl:text-sm">Playbook</button>
+            <button class="xl:text-sm">Blog</button>
             <button
               id="contactUsBtn"
-              class="bg-slat-300 text-black px-4 py-2 h-14 w-40 rounded-lg items-center font-medium xl:text-xl"
+              class="bg-slat-300 text-black px-4 py-2 rounded-lg items-center font-medium xl:text-sm"
             >
               Contact Us
             </button>
           </div>
         </div>
 
-        <div class="relative lg:pl-[15rem] md:pl-12 pl-6 pt-2 lg:pt-16">
+        <div class="relative lg:pl-[10rem] md:pl-12 pl-6 pt-2">
           <div
-            class="relative z-40 sm:top-16 xl:text-[10rem] md:text-8xl text-4xl text-white"
+            class="relative z-40 sm:top-16 md:text-7xl text-4xl text-white"
           >
             WE CREATE
           </div>
           <div class="">
+            <!-- md:-top-[10rem] md:left-[0rem] lg:top-[6rem] lg:left-[12rem] -->
             <img
-              class="hidden md:block sm:absolute md:top-[2rem] md:left-[1rem] lg:top-[6rem] lg:left-[12rem]"
+              class="hidden w-24 sm:block sm:absolute top-[1rem] left-[7rem]"
               src="assets/shapes/circle.svg"
               alt=""
             />
           </div>
           <div class="sm:mt-16">
             <h1
-              class="inline text-white bg-purple-600 w-fit xl:text-9xl leading-[70px] md:text-6xl text-5xl"
+              class="inline text-white bg-purple-600 w-fit sm:px-4 leading-[70px] md:text-7xl text-5xl"
             >
               SUCESSFUL Digital PRODUCTS
             </h1>
@@ -87,19 +88,19 @@
           </div>
           <h3
             id="shortDesc"
-            class="text-white mt-6 sm:text-3xl text-sm tracking-tighter"
+            class="text-white mt-4 sm:text-xl text-sm tracking-tighter"
           >
             Our Team helps founders and companies ideate, build, and
           </h3>
           <h3
             id="shortDesc"
-            class="text-white sm:text-3xl text-sm md-text-2xl tracking-tighter"
+            class="text-white sm:text-xl text-sm  tracking-tighter"
           >
             launch web & mobile applications people love to use
           </h3>
           <button
             id="shortDesc"
-            class="bg-purple-600 text-white text-sm sm:text-xl w-32 p-2 px-3 mt-4 rounded-lg"
+            class="bg-purple-600 text-white text-sm p-2 px-5 mt-3 rounded-lg"
           >
             Contact us
           </button>
@@ -117,7 +118,7 @@
           <img id="triangle" src="assets/shapes/triangle.svg" alt="" />
         </div>
         <div
-          class="mt-40 w-64 relative inset-x-60 sm:inset-x-0 -inset-y-10 sm:inset-y-0 z-10"
+          class="mt-40 w-56 relative inset-x-60 sm:inset-x-0 -inset-y-10 sm:inset-y-0 z-10"
         >
           <img
             class="absolute hidden lg:block z-10 -mt-56 -ml-20"
@@ -153,14 +154,18 @@
         <h1 class="sm:pl-16 pl-2 text-white flex normal-case">
           <span
             id="companies"
-            class="text-sm tracking-tight lg:text-2xl mt-3 ml-4 sm:mt-0"
+            class="tracking-tight text-lg mt-3 ml-4 sm:mt-0"
             >Leading companies that worked with us</span
           >
         </h1>
+        <!-- line for decoration -->
         <div
           class="hidden lg:block border-t flex-1 border-white bg-secondary-1000 text-white w-full mt-[15px] ml-4"
         ></div>
       </div>
+
+      <!-- companies -->
+
       <div
         id="companies"
         class="grid grid-cols-2 sm:flex px-4 py-6 justify-center"
@@ -199,8 +204,9 @@
         </div>
       </div>
 
+      <!-- services -->
       <div id="services">
-        <div class="border-t lg:border-transparent pl-6 pr-4 lg:px-[20rem]">
+        <div class="border-t lg:border-transparent pl-6 pr-4 lg:px-[2rem]">
           <div
             class="relative mt-16 sm:pt-24 text-white text-8xl text-opacity-40 sm:top-0"
           >
@@ -208,7 +214,7 @@
           </div>
           <div
             id="shortDesc"
-            class="relative w-full lg:w-[54rem] text-sm sm:text-2xl flex leading-6 pl-6 sm:pl-12 sm:pr-24 pl-2 -top-8 text-slate-200 leading-6"
+            class="relative w-full lg:w-[40rem] text-sm sm:text-lg flex leading-4 pl-6 sm:pr-20 -top-8 text-slate-200"
           >
             We're the partner you need! Our team will help you build top-notch
             digital products that strengthen your relationship with your users
@@ -218,7 +224,7 @@
           <div id="services-category" class="relative">
             <div
               id="product-strategy"
-              class="text-slate-200 sm:w-[50rem] p-5 sm:h-[20rem] bg-[#37474F] rounded-lg sm:py-8 sm:px-6 transition-colors  sm:mt-8"
+              class="text-slate-200 p-5  bg-[#37474F] rounded-lg sm:py-8 sm:px-6 transition-colors  sm:mt-8"
             >
               <img
                 class="sm:absolute sm:w-[6rem]"
@@ -226,21 +232,21 @@
                 alt=""
               />
               <div class="sm:ml-32">
-                <h1 class="my-2 text-xl sm:text-4xl">PRODUCT STRATEGY</h1>
-                <p class="sm:text-2xl sm:mt-4 leading-6">
+                <h1 class="my-2 text-xl sm:text-2xl">PRODUCT STRATEGY</h1>
+                <p class="sm:text-lg sm:mt-4 leading-6">
                   Let’s explore, understand, and validate the product’s
                   attributes.
                 </p>
-                <p class="sm:text-2xl leading-6">
+                <p class="sm:text-lg leading-6">
                   A multi-disciplinary team will be working together to define
                   the MVP specifications and the UI/UX guidelines.
                 </p>
-                <button class="my-2 text-xl sm:mt-8 sm:pb-4">Read more</button>
+                <button class="my-2 text-lg sm:mt-8 sm:pb-4">Read more</button>
               </div>
             </div>
             <div
               id="development"
-              class="text-slate-200 p-5 bg-[#37474F] rounded-lg mt-8 sm:mt-16 sm:w-[50rem] sm:py-8 sm:px-6"
+              class="text-slate-200 p-5 bg-[#37474F] rounded-lg mt-8 sm:mt-16 "
             >
               <img
                 class="sm:absolute sm:w-[6rem]"
