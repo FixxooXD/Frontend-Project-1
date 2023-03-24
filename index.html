@@ -206,7 +206,7 @@
 
       <!-- services -->
       <div id="services">
-        <div class="border-t lg:border-transparent pl-6 pr-4 lg:px-[10rem]">
+        <div class="border-t lg:border-transparent pl-6 pr-4 lg:px-[4rem] px-10 xl:px-[10rem]">
           <div
             class="relative mt-10 sm:pt-24 text-white text-6xl sm:text-8xl text-opacity-40 sm:top-0"
           >
@@ -214,7 +214,7 @@
           </div>
           <div
             id="shortDesc"
-            class="relative w-full lg:w-[36rem] pb-2 text-sm sm:text-lg flex pl-6 sm:pr-10 -top-6  sm:-top-8 text-slate-200"
+            class="relative w-full lg:w-[45%] pb-2 text-sm sm:text-lg flex pl-6 sm:pr-10 -top-6  sm:-top-8 text-slate-200"
           >
             We're the partner you need! Our team will help you build top-notch
             digital products that strengthen your relationship with your users
@@ -226,7 +226,7 @@
           <div id="services-category" class="relative">
             <div
               id="product-strategy"
-              class="text-slate-200 w-full sm:w-[36rem] sm:h-64 p-5 bg-[#37474F] rounded-lg transition-colors"
+              class="text-slate-200 w-full lg:w-[45%] lg:h-72  p-5 bg-[#37474F] rounded-lg transition-colors"
             >
               <img
                 class="sm:absolute"
@@ -248,7 +248,7 @@
                 <!-- development -->
             <div
               id="development"
-              class="text-slate-200 p-5 bg-[#37474F] w-full sm:w-[36rem] sm:h-64 rounded-lg mt-4 sm:mt-10 "
+              class="text-slate-200 p-5 bg-[#37474F] w-full lg:w-[45%] lg:h-[72] xl:h-72 rounded-lg mt-4 sm:mt-6"
             >
               <img
                 class="sm:absolute"
@@ -269,7 +269,7 @@
          <!-- product-design -->
             <div
               id="product-design"
-              class="lg:absolute lg:-top-[7rem] lg:right-4 text-slate-200 w-full sm:w-[36rem] sm:h-64 p-5 bg-[#37474F] rounded-lg mt-5"
+              class="lg:absolute lg:-top-[7rem] lg:right-4 text-slate-200 w-full lg:w-[45%] lg:h-[21rem] xl:h-72 p-5 bg-[#37474F] rounded-lg mt-4 sm:mt-6"
             >
               <img
                 class="sm:absolute"
@@ -291,7 +291,7 @@
             <!-- staff-augmentation -->
             <div
               id="staff-augmentation"
-              class="text-slate-200 p-5 sm:pt-8 bg-[#37474F] rounded-lg mt-5 sm:mt-1 w-full sm:w-[36rem] sm:h-64 lg:absolute lg:top-[12rem] lg:right-4"
+              class="text-slate-200 p-5 sm:pt-8 bg-[#37474F] rounded-lg sm:mt-1 w-full lg:w-[45%] lg:h-[21rem] xl:h-72 lg:absolute lg:top-[16rem] lg:right-4 mt-4 sm:mt-6"
             >
               <img
                 class="sm:absolute"
@@ -299,7 +299,7 @@
                 alt=""
               />
               <div class="sm:ml-28">
-                <h1 class="my-2  text-xl sm:text-2xl">STAFF AUGMENTATION</h1>
+                <h1 class="my-2 text-xl sm:text-2xl">STAFF AUGMENTATION</h1>
                 <p class="sm:text-lg sm:mt-4 leading-6">
                   Hire additional talent for your team on-demand when you need
                   an extra hand. We provide hourly or part-time software
@@ -311,7 +311,7 @@
           </div>
           <button
             id=""
-            class="lg:relative lg:-right-[65rem] lg:-top-20 bg-purple-600 text-white w-full lg:w-36 h-12 p-2 rounded-lg my-4 lg:my-0"
+            class="hidden lg:relative lg:-right-[65rem] lg:-top-20 bg-purple-600 text-white w-full lg:w-36 h-12 p-2 rounded-lg my-4 lg:my-0"
           >
            <span id="shortDesc" class="hidden lg:block text-sm"
               >Contact us</span>
@@ -328,21 +328,23 @@
     <div id="OurWork" class=" border-t sm:border-transparent border-b  px-4 mt-4">
            <div class="md:absolute sm:right-[10rem] mt-4 sm:pt-24 text-white text-6xl sm:text-8xl text-opacity-40">OUR WORK</div>
 
-    <div class=" flex flex-col mt-2 sm:px-[2rem] sm:pt-8 ">
-      <div class="sm:flex">
-    <div class="sm:mt-[8rem]  sm:ml-[10rem]">
-    <div class="text-sm sm:text-sm text-opacity-60 text-white sm:w-[14rem]">CASE STUDY</div>
-    <div class="text-white text-4xl sm:text-3xl sm:w-[14rem]">BEST BUY</div>
 
-    <div class="flex flex-col sm:hidden">
-      <div class="relative overflow-hidden sm:overflow-visible flex md:flex-row-reverse mt-8 sm:-mt-0 md:pr-[7rem]">
-       <img id="laptop" class="relative z-40 sm:w-[52rem] sm:top-[7rem]" src="assets/ourWorkIcons/laptop.svg" alt="">
-       <img id="circle" class="absolute w-20 sm:w-28 top-0 sm:top-[24rem] sm:right-[8rem] right-0 " src="assets/shapes/circle.svg" alt="">
+    <div class=" flex flex-col mt-2 lg:px-[2rem] sm:pt-8 ">
+      <div class="lg:flex">
+    <div class="lg:mt-[8rem]  lg:ml-[10rem]">
+    <div class="text-sm lg:text-sm text-opacity-60 text-white lg:w-[14rem]">CASE STUDY</div>
+    <div class="text-white text-4xl lg:text-3xl lg:w-[14rem]">BEST BUY</div>
+
+    <!-- mobile-view -->
+    <div class="flex flex-col lg:hidden">
+      <div class="relative flex mt-8">
+       <img id="laptop" class="relative z-40" src="assets/ourWorkIcons/laptop.svg" alt="">
+       <img id="circle" class="absolute w-20 lg:w-28 top-0 lg:top-[24rem] lg:right-[8rem] right-0 " src="assets/shapes/circle.svg" alt="">
       </div>
     </div>
 
      <div class="px-2 sm:px-0 sm:w-[35rem]">
-      <div id="shortDesc" class="mt-1 sm:mt-6  text-white text-lg sm:w-[14rem]" >Retailer</div>
+      <div id="shortDesc" class="mt-4 sm:mt-6  text-white text-lg sm:w-[14rem]" >Retailer</div>
       <div class="">
       <p class="text-white text-opacity-85 mt-5 text-sm sm:text-lg sm:mt-6 sm:pr-[1rem] leading-6 text-opacity-85">We built BestBuy's influencer network, a platform where influencers from different social media channels can collaborate with BestBuy to promote their electronic products.
       </p>
@@ -352,10 +354,10 @@
   </div>
 
   <!-- desktop-view -->
-   <div class="hidden sm:flex flex-col">
-    <div class="relative overflow-hidden sm:overflow-visible flex md:flex-row-reverse md:pr-[7rem]">
-     <img id="laptop" class="relative z-40 sm:w-[52rem] sm:top-[7rem]" src="assets/ourWorkIcons/laptop.svg" alt="">
-     <img id="circle" class="absolute w-20 sm:w-28 top-0 sm:top-[24rem] sm:right-[8rem] right-0 " src="assets/shapes/circle.svg" alt="">
+   <div class="hidden lg:block flex-col">
+    <div class="relative overflow-hidden flex lg:flex-row-reverse lg:pr-[7rem]">
+     <img id="laptop" class="relative z-40 sm:w-[52rem] lg:top-[7rem]" src="assets/ourWorkIcons/laptop.svg" alt="">
+     <img id="circle" class="absolute w-20 lg:w-28 top-0 lg:top-[24rem] lg:right-[8rem] right-0 " src="assets/shapes/circle.svg" alt="">
     </div>
   </div>
 
