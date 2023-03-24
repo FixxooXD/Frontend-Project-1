@@ -1363,6 +1363,10 @@ video {
     right: -1.5rem;
   }
 
+  .sm\:-right-0 {
+    right: -0px;
+  }
+
   .sm\:ml-24 {
     margin-left: 6rem;
   }
