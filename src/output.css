@@ -1009,6 +1009,14 @@ video {
   padding-right: 15rem;
 }
 
+.pl-0 {
+  padding-left: 0px;
+}
+
+.pl-\[5rem\] {
+  padding-left: 5rem;
+}
+
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
@@ -1632,6 +1640,26 @@ video {
     top: 2.5rem;
   }
 
+  .lg\:left-\[20\] {
+    left: 20;
+  }
+
+  .lg\:left-\[20rrem\] {
+    left: 20rrem;
+  }
+
+  .lg\:left-\[20rem\] {
+    left: 20rem;
+  }
+
+  .lg\:left-\[1rem\] {
+    left: 1rem;
+  }
+
+  .lg\:left-\[15rem\] {
+    left: 15rem;
+  }
+
   .lg\:my-0 {
     margin-top: 0px;
     margin-bottom: 0px;
@@ -2036,6 +2064,22 @@ video {
 
   .xl\:-right-\[0rem\] {
     right: -0rem;
+  }
+
+  .xl\:left-\[\] {
+    left: ;
+  }
+
+  .xl\:left-\[18rem\] {
+    left: 18rem;
+  }
+
+  .xl\:left-\[16rem\] {
+    left: 16rem;
+  }
+
+  .xl\:left-\[1rem\] {
+    left: 1rem;
   }
 
   .xl\:mr-\[6rem\] {
