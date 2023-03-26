@@ -732,6 +732,34 @@ video {
   top: 7rem;
 }
 
+.right-\[7rem\] {
+  right: 7rem;
+}
+
+.right-\[8rem\] {
+  right: 8rem;
+}
+
+.right-\[10rem\] {
+  right: 10rem;
+}
+
+.right-\[12rem\] {
+  right: 12rem;
+}
+
+.right-\[3rem\] {
+  right: 3rem;
+}
+
+.right-\[2\.5rem\] {
+  right: 2.5rem;
+}
+
+.top-\[6\.5rem\] {
+  top: 6.5rem;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -966,6 +994,18 @@ video {
 
 .w-8 {
   width: 2rem;
+}
+
+.w-\[0\%\] {
+  width: 0%;
+}
+
+.w-\[85\%\] {
+  width: 85%;
+}
+
+.w-6 {
+  width: 1.5rem;
 }
 
 .max-w-lg {
