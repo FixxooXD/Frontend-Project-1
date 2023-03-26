@@ -1630,6 +1630,18 @@ video {
     padding-top: 3rem;
   }
 
+  .lg\:pr-14 {
+    padding-right: 3.5rem;
+  }
+
+  .lg\:pr-\[14\] {
+    padding-right: 14;
+  }
+
+  .lg\:pr-\[14rem\] {
+    padding-right: 14rem;
+  }
+
   .lg\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
@@ -1710,6 +1722,42 @@ video {
     width: 45rem;
   }
 
+  .xl\:w-\[35rem\] {
+    width: 35rem;
+  }
+
+  .xl\:w-\[3rem\] {
+    width: 3rem;
+  }
+
+  .xl\:w-\[3r6em\] {
+    width: 3r6em;
+  }
+
+  .xl\:w-\[36em\] {
+    width: 36em;
+  }
+
+  .xl\:w-\[36rem\] {
+    width: 36rem;
+  }
+
+  .xl\:w-\[35\.5rem\] {
+    width: 35.5rem;
+  }
+
+  .xl\:w-\[35\.9rem\] {
+    width: 35.9rem;
+  }
+
+  .xl\:w-\[37rem\] {
+    width: 37rem;
+  }
+
+  .xl\:w-\[37\.5rem\] {
+    width: 37.5rem;
+  }
+
   .xl\:px-4 {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -1746,6 +1794,18 @@ video {
     padding-left: 2rem;
   }
 
+  .xl\:pl-0 {
+    padding-left: 0px;
+  }
+
+  .xl\:pr-\[14rem\] {
+    padding-right: 14rem;
+  }
+
+  .xl\:pr-\[10rem\] {
+    padding-right: 10rem;
+  }
+
   .xl\:text-8xl {
     font-size: 6rem;
     line-height: 1;
@@ -1764,5 +1824,9 @@ video {
 
   .\32xl\:pl-\[4rem\] {
     padding-left: 4rem;
+  }
+
+  .\32xl\:pr-\[10rem\] {
+    padding-right: 10rem;
   }
 }
