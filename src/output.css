@@ -860,6 +860,10 @@ video {
   width: 9rem;
 }
 
+.w-2 {
+  width: 0.5rem;
+}
+
 .max-w-lg {
   max-width: 32rem;
 }
@@ -988,6 +992,14 @@ video {
 
 .p-8 {
   padding: 2rem;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.p-1 {
+  padding: 0.25rem;
 }
 
 .px-10 {
@@ -1305,12 +1317,20 @@ video {
     width: 90%;
   }
 
+  .sm\:w-28 {
+    width: 7rem;
+  }
+
   .sm\:border-transparent {
     border-color: transparent;
   }
 
   .sm\:p-10 {
     padding: 2.5rem;
+  }
+
+  .sm\:p-8 {
+    padding: 2rem;
   }
 
   .sm\:px-0 {
