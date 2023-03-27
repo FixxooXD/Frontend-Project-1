@@ -1064,6 +1064,23 @@ video {
   background-color: rgb(232 234 246 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#F0\] {
+  background-color: #F0;
+}
+
+.bg-\[\#F0F4\] {
+  background-color: #F0F4;
+}
+
+.bg-\[\#F0F4FB\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(240 244 251 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#FF4FB\] {
+  background-color: #FF4FB;
+}
+
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
