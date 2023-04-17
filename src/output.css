@@ -521,6 +521,13 @@ video {
   position: relative;
 }
 
+.inset-0 {
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
 .-inset-y-10 {
   top: -2.5rem;
   bottom: -2.5rem;
@@ -534,6 +541,11 @@ video {
 .inset-y-20 {
   top: 5rem;
   bottom: 5rem;
+}
+
+.inset-x-0 {
+  left: 0px;
+  right: 0px;
 }
 
 .-left-10 {
@@ -765,6 +777,18 @@ video {
   margin-top: 6rem;
 }
 
+.mt-\[10rem\] {
+  margin-top: 10rem;
+}
+
+.mt-\[15rem\] {
+  margin-top: 15rem;
+}
+
+.mt-\[16rem\] {
+  margin-top: 16rem;
+}
+
 .block {
   display: block;
 }
@@ -816,6 +840,18 @@ video {
 
 .h-screen {
   height: 100vh;
+}
+
+.h-\[10re\] {
+  height: 10re;
+}
+
+.h-\[10rem\] {
+  height: 10rem;
+}
+
+.h-\[14rem\] {
+  height: 14rem;
 }
 
 .w-1\/2 {
@@ -915,6 +951,34 @@ video {
   width: full;
 }
 
+.w-\[90\] {
+  width: 90;
+}
+
+.w-\[100\] {
+  width: 100;
+}
+
+.w-\[100\%\] {
+  width: 100%;
+}
+
+.w-\[95\%\] {
+  width: 95%;
+}
+
+.w-\[98\%\] {
+  width: 98%;
+}
+
+.w-11\/12 {
+  width: 91.666667%;
+}
+
+.w-\[9\%\] {
+  width: 9%;
+}
+
 .max-w-lg {
   max-width: 32rem;
 }
@@ -967,6 +1031,10 @@ video {
 
 .overflow-hidden {
   overflow: hidden;
+}
+
+.overflow-x-hidden {
+  overflow-x: hidden;
 }
 
 .rounded-3xl {
@@ -1174,6 +1242,10 @@ video {
   padding-top: 3rem;
 }
 
+.pt-5 {
+  padding-top: 1.25rem;
+}
+
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
@@ -1248,6 +1320,18 @@ video {
 
 .tracking-tighter {
   letter-spacing: -0.05em;
+}
+
+.tracking-wide {
+  letter-spacing: 0.025em;
+}
+
+.tracking-wider {
+  letter-spacing: 0.05em;
+}
+
+.tracking-widest {
+  letter-spacing: 0.1em;
 }
 
 .text-\[\#222\] {
@@ -1727,6 +1811,26 @@ video {
     margin-top: 5rem;
   }
 
+  .lg\:mt-8 {
+    margin-top: 2rem;
+  }
+
+  .lg\:mt-16 {
+    margin-top: 4rem;
+  }
+
+  .lg\:mt-\[16rem\] {
+    margin-top: 16rem;
+  }
+
+  .lg\:mt-\[10rem\] {
+    margin-top: 10rem;
+  }
+
+  .lg\:mt-0 {
+    margin-top: 0px;
+  }
+
   .lg\:block {
     display: block;
   }
@@ -2187,6 +2291,10 @@ video {
 
   .\32xl\:w-1\/2 {
     width: 50%;
+  }
+
+  .\32xl\:w-\[\] {
+    width: ;
   }
 
   .\32xl\:px-\[14rem\] {
