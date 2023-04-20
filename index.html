@@ -31,19 +31,15 @@
           alt=""
         />
       </div>
-      <nav class="relative h-screen w-screen flex flex-col">
+      <nav class="h-screen w-screen flex flex-col fixed z-90">
         <div class="First-container flex justify-between p-5 sm:p-10">
           <div id="logo" class="text-white">
             <span class="text-5xl sm:text-7xl">Logo</span>
           </div>
           <div id="otherNav-desktop-view" class="text-white block lg:hidden">
             <button>Burgir Btn</button>
-            <!-- <button>Our Work</button>
-            <button>Services</button>
-            <button>Playbook</button>
-            <button>Blog</button> -->
-            <!-- <button id="contactUsBtn" class="bg-slat-300 text-black">Contact Us</button> -->
           </div>
+
           <div
             id="otherNav-desktop-view"
             class="h-10 text-white hidden lg:flex w-5/12 flex justify-between font-bold"
@@ -61,7 +57,18 @@
           </div>
         </div>
 
-        <div class="relative lg:pl-[10rem] md:pl-12 pl-6 pt-8 sm:pt-2">
+
+         <!-- Nav-mobile-view -->
+         <div class="absolute lg:hidden w-screen bg-[#222] top-[10rem] z-50">
+         <div>
+          <div>Our Work</div>
+          <div>services</div>
+          <div>playbook</div>
+          <div>blog</div>
+         </div>
+        </div>
+
+        <div class="relative lg:pl-[10rem] md:pl-12 pl-6 pt-8 sm:pt-2 z-10">
           <div
             class="relative z-40 sm:top-16 md:text-7xl text-4xl xl:text-8xl text-white"
           >
@@ -753,10 +760,10 @@
     </div>
   <!-- bg-[#E8EAF6] -->
   <!-- MobileView-client-review-->
-  <div class="lg:hidden relative">
+  <div class="lg:hidden relative h-64">
 
     <!-- first-client -->
-    <div class="p-5 py-8 bg-[#F0F4FB] rounded-2xl absolute">
+    <div class="p-5 py-8 bg-[#F0F4FB] absolute rounded-2xl">
       <p> “The most impressive thing about them was their involvement in the
         project. They not only participate on technical decisions, but also product & business-related
         ones.”amp;</p>
@@ -770,7 +777,7 @@
     </div>
 
     <!-- 2nd-Client -->
-    <div class="p-5 py-8 bg-[#F0F4FB] rounded-2xl">
+    <div class="p-5 py-8 bg-[#F0F4FB] rounded-2x">
       <p>  “One of the things that have impressed me the most is Light-it’s willingness to listen to what
         we have in mind for our product.”</p>
     <div class="flex mt-8 bg-[#F0F4FB]">
@@ -783,7 +790,7 @@
     </div>
 
 <!-- third-client -->
-    <div class="p-5 py-6 bg-[#F0F4FB] rounded-2xl absolute top-0">
+    <div class="p-5 py-5 bg-[#F0F4FB] rounded-2xl top-0 absolute">
       <p> “I’ve never worked with an offshore team that provided such good results. They were very
         collaborative, and they delivered solutions that went beyond our specifications and were
         extremely impactful.”</p>
