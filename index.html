@@ -19,9 +19,11 @@
 
     <link rel="stylesheet" href="./src/output.css" />
     <link rel="stylesheet" href="./src/extra.css" />
+    <script defer src="src/index.js"></script>
     <title>Ignite</title>
   </head>
-  <body>
+  <body id="body" onscroll="myFunction()">
+
     <div id="parent" class="overflow-hidden bg-[#222] h-[85vh] md:h-[95vh]">
       <div class="img-div absolute h-[85vh] md:h-[95vh]">
         <!-- sm:h-screen -->
@@ -31,7 +33,9 @@
           alt=""
         />
       </div>
-      <nav class="relative h-screen w-screen flex flex-col">
+      <div id="background" class="relative h-screen w-screen flex flex-col">
+
+      <nav class="w-screen fixed z-50">
         <div class="First-container flex justify-between p-5 sm:p-10">
           <div id="logo" class="text-white">
             <span class="text-5xl sm:text-7xl">Logo</span>
@@ -60,8 +64,9 @@
             </button>
           </div>
         </div>
+      </nav>
 
-        <div class="relative lg:pl-[10rem] md:pl-12 pl-6 pt-8 sm:pt-2">
+        <div class="relative lg:pl-[10rem] md:pl-12 pl-6 pt-[8rem] sm:pt-[8rem]">
           <div
             class="relative z-40 sm:top-16 md:text-7xl text-4xl xl:text-8xl text-white"
           >
@@ -70,7 +75,7 @@
           <div class="">
             <!-- md:-top-[10rem] md:left-[0rem] lg:top-[6rem] lg:left-[13rem] -->
             <img
-              class="hidden w-24 sm:block sm:absolute top-[1rem] left-[7rem]"
+              class="hidden w-24 sm:block sm:absolute top-[8rem] left-[7rem]"
               src="assets/shapes/circle.svg"
               alt=""
             />
@@ -101,7 +106,7 @@
           </h3>
           <button
             id="shortDesc"
-            class="bg-purple-600 text-white text-sm p-2 px-5 mt-3 rounded-lg"
+            class="bg-purple-600 text-white text-sm p-2 px-5 mt-3 rounded-lg relative z-10"
           >
             Contact us
           </button>
@@ -132,7 +137,7 @@
             alt=""
           />
         </div>
-      </nav>
+      </div>
       <div class="relative block sm:absolute sm:hidden left-10">
         <img
           class="absolute sm:relative inset-x-60 -inset-y-10 w-24"
@@ -548,7 +553,7 @@
                 class="relative ml-auto mr-auto sm:w-[28rem] lg:w-[45rem] lg:h-96 flex items-center justify-center mt-16 lg:mt-2"
               >
                 <img
-                  class="lg:absolute z-50"
+                  class="lg:absolute z-40"
                   src="assets/ourWorkIcons/dlocal_phone.svg"
                   alt=""
                 />
@@ -900,5 +905,16 @@
 </div>
 </div>
 </footer>
+
+ <!-- Nav-mobile-view -->
+ <div class="fixed hidden flex justify-center items-center  w-screen h-[100%] bg-[#37474f] top-[5rem] sm:top-[7rem] z-50">
+  <div class="text-white text-3xl flex flex-col justify-around h-[80%] sm:h-[70%] ">
+   <div id="shortDesc" class="flex justify-center items-center" >Our work</div>
+   <div id="shortDesc" class="flex justify-center items-center">Services</div>
+   <div id="shortDesc" class="flex justify-center items-center" >Playbook</div>
+   <div id="shortDesc" class="flex justify-center items-center" >Blog</div>
+   <div id="shortDesc" class="flex justify-center items-center" >Contact Us</div>
+  </div>
+ </div>
   </body>
 </html>
