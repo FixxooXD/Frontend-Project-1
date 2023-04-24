@@ -22,7 +22,7 @@
     <script defer src="src/index.js"></script>
     <title>Ignite</title>
   </head>
-  <body id="body" onscroll="myFunction()">
+  <body id="body" onscroll="scrollFunction()">
 
     <div id="parent" class="overflow-hidden bg-[#222] h-[85vh] md:h-[95vh]">
       <div class="img-div absolute h-[85vh] md:h-[95vh]">
@@ -35,7 +35,7 @@
       </div>
       <div id="background" class="relative h-screen w-screen flex flex-col">
 
-      <nav class="w-screen fixed z-50">
+      <nav id="nav" class="w-screen fixed z-50">
         <div class="First-container flex justify-between p-5 sm:p-10">
           <div id="logo" class="text-white">
             <span class="text-5xl sm:text-7xl">Logo</span>
