@@ -1,35 +1,56 @@
 const navv = document.getElementById("nav");
-console.log(document.getElementById("body"));
-console.log(document.getElementById("body").scrollTop);
+const svg = document.getElementById("service-icon");
+const servicesOps = document.getElementById("services-option");
 
-// const element = document.getElementById("body");
-// let y = element.scrollTop;
+const hamburgerMenu = document.getElementById('hamburger-menu');
+const closeMenu = document.getElementById('close-menu');
+const mobileNav = document.getElementById('mobileNav')
 
-// function myFunction() {
-//   const element = document.getElementById("nav");
-//   // document.getElementById ("demo").innerHTML = "Horizontally: " + x.toFixed() + "<br>Vertically: " + y.toFixed();
-//   console.log(y)
-//
-
-
-// window.addEventListener('scroll', function() {
-//   document.getElementById('showScroll').innerHTML = window.pageYOffset + 'px';
-//   console.log();
-// });
-
-
-
+// nav onscroll
 function scrollFunction() {
-  const element = document.getElementById("body");
-  // let y = element.scrollTop;
   let y = window.pageYOffset;
-  // console.log(y.toFixed())
-  // if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
   if (y > 50) {
-    navv.classList.add("bg-[#222]");
-    // console.log("yes");
+    navv.classList.add("bg-[#263238]");
   } else {
-    navv.classList.remove("bg-[#222]");
-    // console.log('yes');
+    navv.classList.remove("bg-[#263238]");
   }
 }
+
+// rotate SVG
+function svgRotate(){
+  if(svg.classList.contains('rotate-180')){
+  svg.classList.remove("rotate-180");
+  servicesOps.classList.add('hidden')
+  }
+  else{
+    svg.classList.add("rotate-180");
+    servicesOps.classList.remove('hidden')
+  }
+}
+
+//  HamburgerMenu
+function navBar(){
+    if(mobileNav.classList.contains('hidden')){
+       hamburgerMenu.classList.add('hidden');
+       closeMenu.classList.remove('hidden');
+       mobileNav.classList.remove('hidden');
+    }
+    else{
+      hamburgerMenu.classList.remove('hidden');
+      closeMenu.classList.add('hidden');
+      mobileNav.classList.add('hidden');
+
+    }
+}
+
+  // if(mobileNav.classList.contains('hidden') || hamburgerMenu.classList.add('hidden')){
+  //   hamburgerMenu.classList.add('block');
+  //   closeMenu.classList.add('hidden');
+  // }
+  // else{
+  //   mobileNav.classList.contains('block');
+  //   hamburgerMenu.classList.add('hidden');
+  //   closeMenu.classList.remove('hidden')
+
+  // }
+// }

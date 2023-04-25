@@ -35,22 +35,22 @@
       </div>
       <div id="background" class="relative h-screen w-screen flex flex-col">
 
-      <nav id="nav" class="w-screen fixed z-50">
+      <nav id="nav" class="w-screen fixed z-50 transition-all delay-10 sm:h-32 lg:px-[5rem]">
         <div class="First-container flex justify-between p-5 sm:p-10">
           <div id="logo" class="text-white">
-            <span class="text-5xl sm:text-7xl">Logo</span>
+            <span class="text-4xl sm:text-7xl">Logo</span>
           </div>
-          <div id="otherNav-desktop-view" class="text-white block lg:hidden">
-            <button>Burgir Btn</button>
-            <!-- <button>Our Work</button>
-            <button>Services</button>
-            <button>Playbook</button>
-            <button>Blog</button> -->
-            <!-- <button id="contactUsBtn" class="bg-slat-300 text-black">Contact Us</button> -->
+          <div id="otherNav-desktop-view" onclick="navBar()" class="text-white block transition-all delay-[0.2s] lg:hidden ">
+            <svg id="hamburger-menu" xmlns="http://www.w3.org/2000/svg" class="open-svg h-6 w-6 pointer-events-none" viewBox="0 0 24 25" fill="none">
+              <path d="M4 6.16016H20M4 12.1602H20M4 18.1602H20" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+             </svg>
+            <svg id="close-menu" xmlns="http://www.w3.org/2000/svg" class="close-svg h-6 w-6 pointer-events-none hidden" viewBox="0 0 25 25" fill="none">
+              <path d="M6.5 18.2061L18.5 6.20606M6.5 6.20605L18.5 18.2061" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
           </div>
           <div
             id="otherNav-desktop-view"
-            class="h-10 text-white hidden lg:flex w-5/12 flex justify-between font-bold"
+            class="h-10 text-white hidden lg:flex w-[30rem] flex justify-between font-bold"
           >
             <button class="xl:text-sm">Our Work</button>
             <button class="xl:text-sm">Services</button>
@@ -907,10 +907,23 @@
 </footer>
 
  <!-- Nav-mobile-view -->
- <div class="fixed hidden flex justify-center items-center  w-screen h-[100%] bg-[#37474f] top-[5rem] sm:top-[7rem] z-50">
-  <div class="text-white text-3xl flex flex-col justify-around h-[80%] sm:h-[70%] ">
+ <div id="mobileNav" class="fixed flex justify-center items-center  w-screen h-[100%] bg-[#37474f] top-[5rem] sm:top-[7rem] z-50 transition-all delay-[0.2s] hidden">
+  <div class="text-white text-2xl flex flex-col justify-around h-[75%] sm:h-[70%] ">
    <div id="shortDesc" class="flex justify-center items-center" >Our work</div>
-   <div id="shortDesc" class="flex justify-center items-center">Services</div>
+   <div class="flex flex-col justify-center items-center">
+    <div onclick="svgRotate()" class="flex items-center justify-center transition-all delay-[0.2s]">
+    <div id="shortDesc">Services</div>
+    <svg id="service-icon" class="service-icon transition-transform transform -rotate-180 ml-3 pointer-events-none rotate-0" xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
+      <path d="M16.3337 7.5L10.5003 13.3333L4.66699 7.5" stroke="#fff" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"></path>
+  </svg>
+  </div>
+  <div id="services-option" class="flex flex-col justify-center items-center hidden">
+    <div id="shortDesc" class="p-2 text-xl">Product strategy</div>
+    <div id="shortDesc" class="py-2 text-xl">Product design</div>
+    <div id="shortDesc" class="py-2 text-xl">Develeopment</div>
+    <div id="shortDesc" class="py-2 text-xl">Staff augmentation</div>
+  </div>
+  </div>
    <div id="shortDesc" class="flex justify-center items-center" >Playbook</div>
    <div id="shortDesc" class="flex justify-center items-center" >Blog</div>
    <div id="shortDesc" class="flex justify-center items-center" >Contact Us</div>
