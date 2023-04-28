@@ -44,7 +44,7 @@ function navBar(){
 }
 
 function ourWork(){
-  window.scrollBy(0,1800)
+  window.scrollTo(0,1800)
 }
 
   // if(mobileNav.classList.contains('hidden') || hamburgerMenu.classList.add('hidden')){
